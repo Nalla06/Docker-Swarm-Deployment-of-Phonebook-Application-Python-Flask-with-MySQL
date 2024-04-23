@@ -1,4 +1,4 @@
-# Project-204: Docker Swarm Deployment of Phonebook Application (Python Flask) with MySQL
+# Docker Swarm Deployment of Phonebook Application (Python Flask) with MySQL
 
 ## Description
 
@@ -6,7 +6,6 @@ This project aims to deploy the Phonebook Application web application with Docke
 
 ## Problem Statement
 
-![Project_204](project-204.png)
 
 - Your company has recently started a project that aims to serve as phonebook web application. Your teammates have started to work on the project and developed the UI and backend part of the project and they need your help to deploy the app in development environment.
 
@@ -108,53 +107,3 @@ This project aims to deploy the Phonebook Application web application with Docke
 ## Expected Outcome
 
 ![Phonebook App Search Page](./search-snapshot.png)
-
-### At the end of the project, following topics are to be covered;
-
-- Docker Swarm Deployment
-
-- Web App and MySQL Database Configuration in Docker Swarm
-
-- Bash scripting
-
-- AWS ECR as Image Repository
-
-- AWS IAM Policy and Role Configuration
-
-- AWS EC2 Configuration
-
-- AWS EC2 Security Group Configuration
-
-- Terraform Configuration File
-
-- Git & Github for Version Control System
-
-### At the end of the project, students will be able to;
-
-- demonstrate how to configure Dockerfile and docker-compose files.
-
-- set up a Docker Swarm cluster to work with AWS ECR using Terraform.
-
-- deploy an application stack on Docker Swarm.
-
-- create and configure AWS ECR from the AWS CLI.
-
-- use Docker commands effectively to tag, push, and pull images to/from ECR.
-
-- demonstrate bash scripting skills using `user data` section in Terraform to install and setup Docker and application environment on EC2 Instances.
-
-- demonstrate their configuration skills of AWS EC2, IAM Policy, Role, Instance Profile, and Security Group.
-
-- configure Terraform template to use AWS Resources.
-
-- apply git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Resources
-
-- [AWS CLI Command Reference](https://docs.aws.amazon.com/cli/latest/index.html)
-
-- [Docker Compose File Reference](https://docs.docker.com/compose/compose-file/)
-
-- [Docker Reference Page](https://docs.docker.com/reference/)
-
-- [EC2 Instance Connect](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Connect-using-EC2-Instance-Connect.html)
